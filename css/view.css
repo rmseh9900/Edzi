@@ -102,10 +102,25 @@ hr{
 }
 /*---------------------------mobile---------------------------------*/
 @media all and (max-width: 767px){
+    #boardView{
+        margin-top: 1em;
+        padding: 1em;
+        width: 90%;
+        position: relative;
+        left: 2%;
+        background-color: #eee;
+        margin-bottom: 2em;
+    }
 }
 /*---------------------------tab---------------------------------*/
 @media all and (min-width: 767.1px) and (max-width: 1024px){
-}
-/*----------------------------pc--------------------------------*/
-@media all and (min-width: 1024.1px){
+    #boardView{
+        margin-top: 1em;
+        padding: 1em;
+        width: 75%;
+        position: relative;
+        left: 11%;
+        background-color: #eee;
+        margin-bottom: 2em;
+    }
 }

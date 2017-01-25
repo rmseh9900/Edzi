@@ -1,0 +1,51 @@
+.boardArticle>h3{
+    text-align: center;
+}
+.boardArticle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#boardDelete table{
+    background-color: #eee;
+    width: 18em;
+    margin: 0.5em auto;
+}
+#boardDelete tbody th{
+    width: 25%;
+    padding: 5px;
+    text-align: right;
+    vertical-align: top;
+}
+#boardDelete tbody td{
+    width: 30%;
+    padding: 5px;
+}
+#boardDelete .btnSet{
+    text-align: center;
+}
+.textCenter{
+    text-align: center;
+}
+#boardDelete .btnSet>a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#boardDelete .btnSet>button{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+/*---------------------------min---------------------------------*/
+@media all and (max-width: 320px){
+    #boardDelete table{
+        background-color: #eee;
+        width: 18em;
+        margin: 0.5em auto;
+    }
+    #boardDelete tbody th{
+        font-size: 90%;
+    }
+}
